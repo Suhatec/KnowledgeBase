@@ -1,5 +1,5 @@
 ---
-title: Settings
+title: 设置
 sidebar_position: 2
 ---
 

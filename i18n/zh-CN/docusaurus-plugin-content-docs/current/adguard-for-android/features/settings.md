@@ -1,49 +1,49 @@
 ---
-title: Settings
+title: 设置
 sidebar_position: 4
 ---
 
 :::info
 
-This article is about AdGuard for Android, a multifunctional ad blocker that protects your device at the system level. To see how it works, [download the AdGuard app](https://agrd.io/download-kb-adblock)
+本文所述 AdGuard Android 版是在系统级上保护设备的多功能的广告拦截器。 要了解其工作原理，请[下载 AdGuard 应用程序](https://agrd.io/download-kb-adblock)。
 
 :::
 
-The _Settings_ tab can be accessed by tapping the right-most icon at the bottom of the screen. This section contains various settings, information about your app, license & subscription, and various support resources.
+点击屏幕底部最右边的图标即可进入「设置」。 本部分包含各种设置、有关应用程序、许可证和订阅的信息以及各种支持资源。
 
-## 常规
+## 通用
 
-This section helps you manage the appearance and behavior of the app: you can set the color theme and language, manage notifications, and more. If you want to help the AdGuard team detect app crashes and research usability, you can enable _Auto-report crashes_ and _Send technical and interaction data_.
+此部分可帮助用户管理本应用的外观和行为：可以设置颜色主题和语言，管理通知等。 如您想帮助 AdGuard 团队检测应用崩溃并研究可用性，您可以开启「自动报告崩溃」和「发送技术和交互数据」。
 
 ![General \*mobile\_border](https://cdn.adtidy.org/blog/new/my5quggeneral.png)
 
-Under _App and filter updates_, you can configure automatic filter updates and select an app update channel. Choose _Release_ for more stability and _Beta_ or _Nightly_ for early access to new features.
+用户可在「应用和过滤器更新」下配置自动更新过滤器，以及选择应用更新通道。 选择「稳定版」可试用正式发布版本，选择「测试版」或「Nightly」可提前使用最新功能。
 
 ![Updates \*mobile\_border](https://cdn.adtidy.org/blog/new/hqm8kupdates.png)
 
-### Advanced settings
+### 高级设置
 
-_Automation_ allows you to manage AdGuard via tasker apps.
+「自动化」让用户通过任务程序管理 AdGuard。
 
-_Watchdog_ helps protect AdGuard from being disabled by the system ([read more about Android's battery save mode](/adguard-for-android/solving-problems/background-work/)). The value you enter will be the interval in seconds between watchdog checks.
+「看门狗功能」可帮助用户保护 AdGuard 免于被系统禁用（[阅读有关 Android 省电模式的更多信息](/adguard-for-android/solving-problems/background-work/)）。 您输入的数值将是看门狗检查的间隔时间（以秒为单位）。
 
-_Logging level_ defines what data about the app's operation should be logged. By default, the app collects the data about its events. The _Debug_ level logs more events — enable it if asked by the AdGuard team to help them get a better understanding of the problem. [Read more about collecting and sending logs](/adguard-for-android/solving-problems/log/)
+「日志级别」定义应记录哪些有关应用程序运行的数据。 默认情况下，应用程序会收集有关其事件的数据。 「调试」级别记录更多事件，有时 AdGuard 团队要求启用调试级别，因为它们可以帮助支持团队更好地了解问题原因。 [了解有关收集和发送日志的更多信息](/adguard-for-android/solving-problems/log/)。
 
 ![Advanced \*mobile\_border](https://cdn.adtidy.org/blog/new/vshfnadvanced.png)
 
-The _Low-level settings_ section is for expert users. [Read more about low-level settings](/adguard-for-android/solving-problems/low-level-settings/)
+「低级设置」部分适用于专家用户。 [了解有关低级设置的更多信息](/adguard-for-android/solving-problems/low-level-settings/)
 
 ![Low-level settings \*mobile\_border](https://cdn.adtidy.org/blog/new/n9ztplow_level.png)
 
-## Filtering
+## 过滤
 
-This section allows you to manage HTTPS filtering settings, filters, and userscripts, and set up a proxy server.
+此部分允许用户管理 HTTPS 过滤设置、过滤器和用户脚本，以及设置代理服务器。
 
 ![Filtering \*mobile\_border](https://cdn.adtidy.org/blog/new/7v5c6filtering.png)
 
 ### 过滤器
 
-AdGuard blocks ads, trackers, and annoyances by applying rules from its filters. Most features from the _Protection_ section are powered by [AdGuard filters](/general/ad-filtering/adguard-filters/#adguard-filters). If you enable _Basic protection_, it will automatically turn on the AdGuard Base filter and AdGuard Mobile Ads filter. And vice versa: if you turn off both filters, _Basic protection_ will also be disabled.
+AdGuard 应用过滤器中的规则以阻止广告、跟踪器和其他干扰。 「保护」的大部分功能基于 [AdGuard 过滤器](/general/ad-filtering/adguard-filters/#adguard-filters)。 If you enable _Basic protection_, it will automatically turn on the AdGuard Base filter and AdGuard Mobile Ads filter. And vice versa: if you turn off both filters, _Basic protection_ will also be disabled.
 
 ![Filters \*mobile\_border](https://cdn.adtidy.org/blog/new/7osjdfilters.png)
 

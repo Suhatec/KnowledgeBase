@@ -93,7 +93,7 @@ If this setting is enabled, AdGuard will use fallback upstreams for all domains.
 
 If this setting is enabled, AdGuard will test DNS upstreams before adding or updating custom DNS servers.
 
-### Filtering
+### 过滤
 
 #### Capture HAR
 
